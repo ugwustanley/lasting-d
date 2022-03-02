@@ -1,9 +1,11 @@
 import React from 'react';
+import Users from './pages/users';
 
 
 const App = () =>{
   return(
-    <h1>hello world</h1>
+    <Users />
+
   )
 }
 export default App;
