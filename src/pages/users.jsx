@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import User from '../components/user'
 import useFetch  from '../hooks/useFetch'
-import {Box, Button } from '@material-ui/core'
+import {Box } from '@material-ui/core'
 import Typography from '@material-ui/core/Typography'
-import {Grid, Container} from '@material-ui/core'
+import {Grid} from '@material-ui/core'
 import {makeStyles} from '@material-ui/core/styles'
 
 const useStyles = makeStyles({
